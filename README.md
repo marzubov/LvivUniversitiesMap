@@ -5,4 +5,4 @@ LvivUniversitiesMap. Team #1
 ## Web map application of L'viv universities:
 
 * [demo](http://TopQualityUA.github.io/LvivUniversitiesMap/)
-* [documentation](http://TopQualityUA.github.io/LvivUniversitiesMap/readme.html)
+* [documentation](http://TopQualityUA.github.io/LvivUniversitiesMap/documentation/readme.html)
