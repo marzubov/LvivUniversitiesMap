@@ -1,8 +1,8 @@
-LvivUniversitiesMap
+LvivUniversitiesMap. Team #1
 ===================
-# Links to resources.
+# Links to resources:
 
-## Web map application of Дviv universities
+## Web map application of L'viv universities:
 
 * [demo](http://TopQualityUA.github.io/LvivUniversitiesMap/)
 * [documentation](http://TopQualityUA.github.io/LvivUniversitiesMap/readme.html)
