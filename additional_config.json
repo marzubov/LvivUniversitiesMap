@@ -1,0 +1,23 @@
+
+{
+  "label": "Query",
+  "uri": "widgets/Query/Widget",
+  "position": {
+    "left": 145,
+    "top": 45,
+    "width": 380,
+    "height": 410
+  }
+},
+{
+  "label": "Bookmark",
+  "uri": "widgets/Bookmark/Widget"
+},
+{
+"label": "Chart",
+"uri": "widgets/Chart/Widget"
+},
+{
+"label": "Edit",
+"uri": "widgets/Edit/Widget"
+},
