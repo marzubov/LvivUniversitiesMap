@@ -113,6 +113,14 @@
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Content Include="Global.asax" />
+    <Content Include="Images\app-logo.png" />
+    <Content Include="Images\app-name.png" />
+    <Content Include="Images\done.png" />
+    <Content Include="Images\hint.png" />
+    <Content Include="Images\loading.gif" />
+    <Content Include="Images\notes.png" />
+    <Content Include="Images\shortcut.png" />
+    <Content Include="Styles\main.css" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -125,6 +133,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
+    <Folder Include="Scripts\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
