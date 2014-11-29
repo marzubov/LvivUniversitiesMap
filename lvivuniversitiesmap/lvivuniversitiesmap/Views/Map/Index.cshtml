@@ -15,17 +15,17 @@
         * This is the function you can modify to customize the loading page
         * This function will be invoked when one resource is loaded.
         ********************************/
-        //var progress;
-        //function loadingCallback(url, i, count) {
-        //    var loading = document.getElementById('main-loading-bar');
-        //    loading.setAttribute('title', url);
-        //    if (!progress) {
-        //        progress = document.createElement('div');
-        //        progress.setAttribute('class', 'loading-progress');
-        //        loading.appendChild(progress);
-        //    }
-        //    progress.style.width = (((i - 1) / count) * 100) + '%';
-        //}
+        var progress;
+        function loadingCallback(url, i, count) {
+            var loading = document.getElementById('main-loading-bar');
+            loading.setAttribute('title', url);
+            if (!progress) {
+                progress = document.createElement('div');
+                progress.setAttribute('class', 'loading-progress');
+                loading.appendChild(progress);
+            }
+            progress.style.width = (((i - 1) / count) * 100) + '%';
+        }
     </script>
 </head>
 <body class="claro">
@@ -60,9 +60,9 @@
     <div id="main-page">
         <div id="jimu-layout-manager"></div>
     </div>
-
-@*    <script src="env.js"></script>
-    <script type="text/javascript" src="simpleLoader.js"></script>
-    <script type="text/javascript" src="init.js"></script>*@
+    
+    <script src="../../Scripts/env.js"></script>
+    <script type="text/javascript" src="../../Scripts/simpleLoader.js"></script>
+    <script type="text/javascript" src="../../Scripts/init.js"></script>
 </body>
 </html>
