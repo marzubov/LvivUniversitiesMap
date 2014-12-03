@@ -142,13 +142,6 @@
       {
         "label": "Print",
         "uri": "widgets/Print/Widget"
-      },
-      {
-        "label": "Directions",
-        "uri": "widgets/Directions/Widget"
-      },
-      {
-        "uri": "widgets/Geoprocessing/Widget"
       }
     ]
   },
