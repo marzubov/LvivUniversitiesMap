@@ -163,7 +163,7 @@ var ie = (function() {
       });
     });
   }
-  $('document').on('click', function(){
+  document.addEventListener('click', function(){
     var popup = $('.esriPopupVisible'),
     ifAdExist = popup.querySelector('.ad-info');
     if ((popup)&&(!ifAdExist)){
@@ -175,8 +175,9 @@ var ie = (function() {
         case 'Львівський національний медичний університет імені Данила Галицького':
           console.log('Львівський національний медичний університет імені Данила Галицького');
           adInfo.innerHTML = 'Ректор: Медичного <br/> Телефон: 1020205';
+          default:
+          console.log('not in database');
       }
-      
       view.appendChild(adInfo);
     }
   });
