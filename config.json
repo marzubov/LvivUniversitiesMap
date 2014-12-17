@@ -54,6 +54,16 @@
         }
       },
       {
+      "label": "Query",
+      "uri": "widgets/Query/Widget",
+      "position": {
+        "left": 145,
+        "top": 45,
+        "width": 380,
+        "height": 410
+      }
+      },
+      {
         "label": "Select a basemap",
         "uri": "widgets/BasemapGallery/Widget",
         "position": {
@@ -110,10 +120,25 @@
       "bottom": 0
     },
     "portalUrl": "http://topqualityua.maps.arcgis.com/",
-    "itemId": "7883b8b57645494f9d2dbc106134bf09",
+    "itemId": "6f292ca5250642208830ab31b4c37274",
     "mapOptions": {
       "center": "",
       "scale": 16937199
+    }
+  },
+  "layer": {
+    "url": "http://maps1.arcgisonline.com/ArcGIS/rest/services/USGS_Earthquake_Faults/MapServer/1",
+    "expression": "NAME like '[value]'",
+    "textsearchlabel": "Filter by Name  [ Example: Diamond Springs fault ]",
+    "textsearchhint": "Name",
+    "titlefield": "Name",
+    "linkfield": "",
+    "fields": {
+      "all": false,
+      "field": [{
+        "name": "NAME",
+        "alias": "Name"
+      }]
     }
   },
   "widgetPool": {
@@ -142,6 +167,14 @@
       {
         "label": "Print",
         "uri": "widgets/Print/Widget"
+      },
+      {
+        "label": "Chart",
+        "uri": "widgets/Chart/Widget"
+      },
+      {
+        "label": "Edit",
+        "uri": "widgets/Edit/Widget"
       }
     ]
   },
