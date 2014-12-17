@@ -147,7 +147,7 @@ var ie = (function() {
       loadingId: 'main-loading',
       mainPageId: 'main-page',
       layoutId: 'jimu-layout-manager',
-      mapId: '7883b8b57645494f9d2dbc106134bf09'
+      mapId: '6f292ca5250642208830ab31b4c37274'
     };
 
     loadResources(resources, null, function(url, loaded) {
