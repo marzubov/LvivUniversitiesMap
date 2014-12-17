@@ -166,24 +166,10 @@
 		<script type="text/javascript" src="simpleLoader.js"></script>
 		<script type="text/javascript" src="init.js"></script>
 		<script>
-			document.addEventListener('click', function(){
-    var popup = document.querySelector('.esriPopupVisible'),
-    ifAdExist = popup.querySelector('.ad-info');
-    if ((popup)&&(!ifAdExist)){
-      var view = popup.querySelector('.esriViewPopup'),
-      adInfo = document.createElement('div'),
-      header = popup.querySelector('.header').innerHTML;
-      adInfo.classList.add('ad-info');
-      switch (header){
-        case 'Львівський національний медичний університет імені Данила Галицького':
-          console.log('Львівський національний медичний університет імені Данила Галицького');
-          adInfo.innerHTML = 'Ректор: Медичного <br/> Телефон: 1020205';
-          default:
-          console.log('not in database');
-      }
-      view.appendChild(adInfo);
+		var popup = document.querySelector('.esriPopupVisible');
+    if (popup) {
+      var ifAdExist = popup.querySelector('.ad-info');
     }
-  });
 		</script>
 	</body>
 </html>
