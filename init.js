@@ -164,8 +164,10 @@ var ie = (function() {
     });
   }
   document.addEventListener('click', function(){
-    var popup = $('.esriPopupVisible'),
-    ifAdExist = popup.querySelector('.ad-info');
+    var popup = document.querySelector('.esriPopupVisible');
+    if (popup) {
+      var ifAdExist = popup.querySelector('.ad-info');
+    }
     if ((popup)&&(!ifAdExist)){
       var view = popup.querySelector('.esriViewPopup'),
       adInfo = document.createElement('div'),
